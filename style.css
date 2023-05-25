@@ -1,0 +1,173 @@
+html {
+    min-height: 100vh;
+    margin: 0px;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.one_div {
+
+    background-image: url(css_test/images/banner3.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    height: 900px;
+
+
+}
+
+header {
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+
+.build_estate {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+
+
+}
+
+.estate {
+    font-size: 150%;
+
+}
+
+.build {
+    color: rgba(253, 151, 39, 1);
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    /* border-right: 2px solid white; */
+    padding-left: 5px;
+
+    padding-right: 0px;
+    font-size: 150%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding-right: 10px;
+}
+
+.title_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+    font-size: 400%;
+}
+
+.title_button {
+    color: white;
+    background-color: rgba(28, 112, 177, 1);
+    border: none;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 110%;
+}
+
+.title_button:hover {
+    background-color: rgb(68, 127, 171);
+    transition-duration: 0.5s;
+}
+
+
+.two_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div2_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div2_welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 394px;
+    height: 431px;
+    padding: 0px;
+    margin: 30px;
+    line-height: 150%;
+    font-size: 18px;
+
+}
+
+.welcome {
+    color: rgba(28, 112, 177, 1);
+    font-size: 30px;
+}
+
+
+
+.about {
+    width: 394px;
+    height: 431px;
+}
+
+.div2_we_make {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 394px;
+    height: 431px;
+    padding: 0px;
+    margin: 30px;
+    line-height: 150%;
+
+}
+
+.zapadding {
+    padding-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+ul {
+    padding-left: 0px;
+}
+
+.wemake {
+    color: rgba(28, 112, 177, 1);
+    font-size: 30px;
+}
